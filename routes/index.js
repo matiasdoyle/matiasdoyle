@@ -1,8 +1,13 @@
+var fs = require('fs'),
+    md = require('markdown');
 
-/*
- * GET home page.
- */
+exports.index = function (req, res) {
+  fs.readFile('./content/about.md', 'utf8', function (err, data) {
+    var out = md.parse(data);
 
-exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+    res.render('index', {
+      title : 'Matias Doyle',
+      about : out
+    });
+  });
 };
