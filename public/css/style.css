@@ -11,7 +11,7 @@ a { color: #688383; text-decoration: none; }
 .box {
   background: #f9fcfc;
   border: 1px solid #e1e6e6;
-  box-shadow: 0px 0px 1px #fff;
+  box-shadow: 0px 0px 2px #D9EFEF;
   margin: 0 auto;
   margin-top: 100px;
   padding: 20px;
@@ -24,6 +24,8 @@ a { color: #688383; text-decoration: none; }
   padding: 2px;
   margin-right: 10px; 
 }
+
+.about { margin-bottom: 60px; }
 
 .contact { border-top: 1px dashed #ddd; margin-top: 50px; }
 .contact ul { margin: 0; padding: 0; }
