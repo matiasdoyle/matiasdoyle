@@ -1,20 +1,14 @@
 {
   "name": "matiasdoyle-com",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
+    "nodefly": "stable",
     "express": "3.0.x",
     "jade": "*",
-    "markdown": ">=0.4.0"
-  },
-  "subdomain": "matiasdoyle",
-  "domains": [
-    "matiasdoyle.com",
-    "www.matiasdoyle.com"
-  ],
-  "engines": {
-    "node": "0.8.x"
+    "markdown": ">=0.4.0",
+    "ejs": "~0.8.4"
   }
 }
